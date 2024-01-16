@@ -1,0 +1,172 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: 'Poppins', sans-serif;
+    color: #333; /* Dark text color */
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #4070f4; /* Header text color */
+}
+
+.header p {
+    font-size: 18px;
+    color: #707070; /* Subtitle text color */
+}
+
+.swiper-container {
+    background-color: #fff; /* White background for the slides */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+/* Add your existing styles for the card and other elements here */
+
+.card {
+    /* Your existing styles... */
+}
+
+.image-content {
+    /* Your existing styles... */
+}
+
+.card-img {
+    /* Your existing styles... */
+}
+
+.card-content {
+    /* Your existing styles... */
+}
+
+.overlay {
+    /* Your existing styles... */
+}
+
+/* Add more styles for buttons, links, or other elements as needed */
+
+.button {
+    /* Your existing styles... */
+}
+
+.button:hover {
+    /* Your existing styles... */
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.image-content {
+    position: relative;
+    padding: 25px 0;
+    background-color: #4070f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070f4;
+    border-radius: 15px 15px 0 15px;
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070f4;
+}
+
+.overlay::after {
+    border-radius: 0 15px 0 0;
+    background-color: #fff;
+}
+
+.name {
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+}
+
+.description {
+    font-size: 14px;
+    color: #707070;
+}
+
+.button {
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #4070f4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #265df2;
+}
